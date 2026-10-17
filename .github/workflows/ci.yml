@@ -36,6 +36,8 @@ jobs:
         run: npm install
 
       # Step 4: Build React App
+      - name: Build React App
+        run: npm run build
 
       # Step 5: Run tests
       - name: Run tests
